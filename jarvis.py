@@ -63,7 +63,7 @@ if auth != "stark":
 mise_a_jour()
 
 # ICI TA MODIFICATION :
-parler("Bonjour Monsieur Stark.")
+parler("Bonjour Monsieur Stark. Système paré, j'écoute vos instructions.")
 
 while True:
     ordre = input("\n[JARVIS] > ").lower().strip()
