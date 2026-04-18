@@ -14,7 +14,7 @@ def parler(texte):
     try:
         print(f"[JARVIS] : {texte}")
         engine.say(texte)
-        engine.runAndWait()
+        engine.runAndWait((
     except:
         pass
 
@@ -69,7 +69,7 @@ if auth != "stark":
 # Lancement de la mise à jour auto au démarrage
 mise_a_jour()
 
-parler("Système paré. J'écoute vos instructions, Monsieur.")
+parler("Mise à jour réussie. Je suis prêt, Monsieur Stark.")
 
 while True:
     ordre = input("\n[JARVIS] > ").lower().strip()
